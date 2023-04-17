@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    margin: 2px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(199, 196, 196);
+    box-shadow:  5px 5px 5px  rgb(213, 213, 213);
+    border-radius: 5px;
+}
